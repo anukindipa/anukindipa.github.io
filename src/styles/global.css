@@ -1,0 +1,15 @@
+@import "./katex.css";
+
+:root {
+  --color-bg: #19171a;
+  --color-accent-dark: #201e21;
+  --color-accent: #5c9ef5;
+}
+
+html{
+    background-color: var(--color-bg);
+}
+
+body{
+    color: var(--color-text);
+}

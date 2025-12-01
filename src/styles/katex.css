@@ -1,0 +1,7 @@
+@import "katex/dist/katex.min.css";
+
+ /* block math should be a bit larger */
+
+.katex-display .katex {
+    font-size: 1.15em;
+}

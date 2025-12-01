@@ -20,3 +20,8 @@ pnpm-debug.log*
 
 # vscode folder
 .vscode/
+
+# obsidian files
+**/.obsidian/workspace*
+**/.obsidian/cache
+**/.obsidian/graph.json
