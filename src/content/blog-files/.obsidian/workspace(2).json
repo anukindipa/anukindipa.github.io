@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "2efe4aa1f9748d1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2248e2fe21805c46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb8c9fb33e312ea1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP10002/Computing textbook.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 796,
+                "zoom": 2.4154411764705883
+              },
+              "icon": "lucide-file-text",
+              "title": "Computing textbook"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6684af200d066e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "9851333dfb37aad0",
+        "type": "tabs",
+        "dimension": 75.55012224938875,
+        "children": [
+          {
+            "id": "ef1aaa28c0195685",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "70eaa7c2f5be891e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7691fa333f17bcc4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e8d75c1a790f41f0",
+        "type": "tabs",
+        "dimension": 24.449877750611243,
+        "children": [
+          {
+            "id": "4158a748ac5c5afe",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.5
+  },
+  "right": {
+    "id": "81ad52dbfaadcf70",
+    "type": "split",
+    "children": [
+      {
+        "id": "423e6bce8b1ef613",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42fd80446e9e7be0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_TIMETABLE IMAGE_.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for _TIMETABLE IMAGE_"
+            }
+          },
+          {
+            "id": "1296d68735ef859c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_TIMETABLE IMAGE_.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _TIMETABLE IMAGE_"
+            }
+          },
+          {
+            "id": "da6f83314bcc2506",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "db62dc07c5161b15",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_TIMETABLE IMAGE_.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _TIMETABLE IMAGE_"
+            }
+          },
+          {
+            "id": "32b90f6809f7e8c0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 431.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "cb8c9fb33e312ea1",
+  "lastOpenFiles": [
+    "COMP10002/Algorithms.md",
+    "COMP10002/comp10002 w1.md",
+    "COMP10002/comp10002 c notess.md",
+    "COMP10002/2017 final exam.md",
+    "Comp final prep.md",
+    "fnce final prep.md",
+    "first year second sem marks.md",
+    "Free meal coupons.md",
+    "projects and this to do.md",
+    "FNCE20005/cfdm tute10.md",
+    "MAST10009/AM2 textbook MAST10009.pdf",
+    "MAST10009/exams/MAST10006_2023_S2_final.pdf",
+    "MAST10009/MAST10006_2023_S2_final.pdf",
+    "MAST10009/exams/MAST10009-2020-exam.pdf",
+    "MAST10009/exams/MAST10009-2021-exam.pdf",
+    "MAST10009/exams/MAST10009-2022-exam_online.pdf",
+    "MAST10009/exams/MAST10009-2024-exam.pdf",
+    "FNCE20005/CFDM tute9.md",
+    "FNCE20005/cfdm the quiz thing.md",
+    "FNCE20005/cfdm last lecture.md",
+    "Side stuff.md",
+    "Pasted image 20251027044151.png",
+    "am2 final prep.md",
+    "Contact Info 1743769.md",
+    "FNCE20005/fnce20005 lec04.md",
+    "FNCE20005/fnce20005 tute1.md",
+    "Pasted image 20251024232557.png",
+    "am2 final prep(1).md",
+    "MAST10010/ass 2/Data Analysis Assignment 2.md",
+    "MAST10010/ass3/da_assn.pdf",
+    "MAST10010/ass3/DA3.md",
+    "MAST10010/ass3/DA3b.png",
+    "MAST10010/ass3/DA3.33333.png",
+    "MAST10010/ass3/DAAA.png",
+    "MAST10010/ass3/DAaaaa.png",
+    "MAST10010/ass3/DA3a.png",
+    "MAST10010/ass3/DA5.png",
+    "MAST10010/ass3/DA3.3.png",
+    "MAST10010/ass3/DA3.1111.png",
+    "MAST10010/ass3/DA3(2).md",
+    "MAST10010/ass3/DA3(3).md",
+    "MAST10010/ass3",
+    "MAST10010/ass 2/da_assn.pdf",
+    "sidestuff/probability.md",
+    "COMP10002/comp10002 w1(1).md",
+    "ASSESSMENTS AHHHHHHHHHHHH.md",
+    "TODO Canvas.canvas"
+  ]
+}

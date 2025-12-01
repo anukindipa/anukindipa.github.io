@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "82b99843caa5da0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f30684d06d758c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95f070b26d62d110",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects and this to do.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "projects and this to do"
+            }
+          },
+          {
+            "id": "21d08eb1dc8427e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free meal coupons.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free meal coupons"
+            }
+          },
+          {
+            "id": "c39bee7c3906828a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP10002/2017 final exam.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2017 final exam"
+            }
+          },
+          {
+            "id": "27ba75e35b1844d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "first year second sem marks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first year second sem marks"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "426e021cfbbab5ad",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2aa3eb1acd408317",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "a66ff85ace54a70b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "d401ebf0e61dc85c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "6b7bc0ee9d8ae83b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "0596b6112e88a1ba",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1735c84f88f4a485",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "MAST10009/AM2 textbook MAST10009.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "5234aca835bab6e8",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "07ae031c1153881a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "2aa3eb1acd408317",
+  "lastOpenFiles": [
+    "projects and this to do.md",
+    "MAST10009/AM2 textbook MAST10009.pdf",
+    "MAST10009/exams/MAST10006_2023_S2_final.pdf",
+    "MAST10009/MAST10009-2025-Assignment-1.pdf",
+    "MAST10009/exams/mast10009_2014.pdf",
+    "first year second sem marks.md",
+    "Free meal coupons.md",
+    "MAST10009/exams/MAST10009-2021-exam.pdf",
+    "MAST10009/exams/mast10009_2018.pdf",
+    "MAST10009/exams/mast10009_2019.pdf",
+    "COMP10002/2017 final exam.md",
+    "Comp final prep.md",
+    "ASS32.png",
+    "ASSESSMENTS AHHHHHHHHHHHH.md",
+    "cfdm last lecture.md",
+    "COMP10002/Computing textbook.pdf",
+    "COMP10002/comp10002 w1.md",
+    "COMP10002/comp10002 c notess.md",
+    "SUBJECTS/subject plans/subject plan.md",
+    "Pasted image 20251014121546.png",
+    "Pasted image 20251014121430.png",
+    "Pasted image 20251014121601.png",
+    "Pasted image 20251014121416.png",
+    "Pasted image 20251014121358.png",
+    "Pasted image 20251014121303.png",
+    "SUBJECTS/subject plans/study plans.md",
+    "Bouldering/Kilter campus.md",
+    "Algorithms.md",
+    "Bouldering/bouldering warm up.md",
+    "Data Analysis Assignment 2.md",
+    "da_assn.pdf",
+    "obsidian_git_uni/foa_assignment/Amortised Analysis.md",
+    "FNCE20005/fnce20005 lec04.md",
+    "obsidian_git_uni/foa_assignment/Untitled",
+    "IMG_4580.jpeg",
+    "Driver license.md",
+    "drivers license back.jpeg",
+    "drivers license front.jpeg",
+    "SUBJECTS/Y1SEM1/MAST/mast assignment 1 workings.md",
+    "MAST10010/Assignment_1/Data Analysis Assignment 1.md",
+    "handrawn.md",
+    "comp10002 c notess.md",
+    "asdfasdf.md",
+    "fnce20005 tute1.md",
+    "comp10002 w1.md",
+    "TODO Canvas.canvas"
+  ]
+}

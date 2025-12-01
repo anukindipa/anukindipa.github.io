@@ -1,0 +1,12 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "showRibbon": true,
+  "theme": "obsidian",
+  "accentColor": "#5c9ef5",
+  "enabledCssSnippets": [
+    "custom",
+    "extended-colorschemes",
+    "custom-rainbow-colors"
+  ],
+  "nativeMenus": false
+}

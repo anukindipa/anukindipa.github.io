@@ -1,0 +1,4 @@
+.internal-link,
+.external-link {
+    text-decoration: underline !important;
+}

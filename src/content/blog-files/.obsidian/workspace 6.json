@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "2efe4aa1f9748d1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "63a0b3e1008e3878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2f0c6566b1898f4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/GREENBOOK.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "GREENBOOK"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6684af200d066e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "9851333dfb37aad0",
+        "type": "tabs",
+        "dimension": 75.55012224938875,
+        "children": [
+          {
+            "id": "ef1aaa28c0195685",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "70eaa7c2f5be891e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7691fa333f17bcc4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e8d75c1a790f41f0",
+        "type": "tabs",
+        "dimension": 24.449877750611243,
+        "children": [
+          {
+            "id": "4158a748ac5c5afe",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 244.50260543823242,
+    "collapsed": true
+  },
+  "right": {
+    "id": "81ad52dbfaadcf70",
+    "type": "split",
+    "children": [
+      {
+        "id": "423e6bce8b1ef613",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42fd80446e9e7be0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_TIMETABLE IMAGE_.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for _TIMETABLE IMAGE_"
+            }
+          },
+          {
+            "id": "1296d68735ef859c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_TIMETABLE IMAGE_.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _TIMETABLE IMAGE_"
+            }
+          },
+          {
+            "id": "da6f83314bcc2506",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "db62dc07c5161b15",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_TIMETABLE IMAGE_.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _TIMETABLE IMAGE_"
+            }
+          },
+          {
+            "id": "32b90f6809f7e8c0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 431.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "d2f0c6566b1898f4",
+  "lastOpenFiles": [
+    "IMG_3578.png",
+    "Pasted image 20250621184721.png",
+    "Pasted image 20250621190518.png",
+    "sidestuff/Academic transcript_.pdf",
+    "SUBJECTS/COMP/files/comp ed worksheets 2.md",
+    "SUBJECTS/COMP/files/comp final lecture 5-6-.md",
+    "subject plans/study plans.md",
+    "subject plans",
+    "SUBJECTS/COMP/files/comp exam notes.md",
+    "SUBJECTS/COMP/files/0 comp final prep.md",
+    "IMG_3577.png",
+    "AM1 final revision.md",
+    "Pasted image 20250620182027.png",
+    "Pasted image 20250621171802.png",
+    "Pasted image 20250621195138.png",
+    "Pasted image 20250621230149.png",
+    "{3E3049B4-9929-4132-A057-0D8DA71C0391}.png",
+    "Pasted image 20250621185041.png",
+    "Pasted image 20250622185332.png",
+    "SUBJECTS/FNCE/files/fnce exam buddy/ExamBuddy Task 4 (Sem 1, 2025).pdf",
+    "SUBJECTS/FNCE/files/fnce exam buddy/ExamBuddy Task 3 (Sem 1, 2025).pdf",
+    "SUBJECTS/FNCE/files/fnce exam buddy/ExamBuddy Task 2 (Sem 1, 2025).pdf",
+    "SUBJECTS/FNCE/files/fnce exam buddy/ExamBuddy Task 1 (Sem 1, 2025).pdf",
+    "SUBJECTS/FNCE/files/fnce exam buddy/ExamBuddy Practice Task (Sem 1, 2025) Final.pdf",
+    "SUBJECTS/FNCE/files/fnce exam buddy",
+    "SUBJECTS/COMP/python files/project 1/bonus.py",
+    "SUBJECTS/COMP/python files/project 1/works.py",
+    "greenbook workings.md",
+    "SUBJECTS/MAST/files/mast assignment 2 workings.md",
+    "SUBJECTS/FNCE/files/fnce ExamBuddy practice task.md",
+    "SUBJECTS/FNCE/files/fnce ExamBuddy practice task workings.md",
+    "SUBJECTS/COMP/files/comp project.md",
+    "SUBJECTS/COMP/files/comp tut08 workings.md",
+    "SUBJECTS/FNCE/files/fnce tut06 workings.md",
+    "SUBJECTS/SCIE/files/scie report.md",
+    "SUBJECTS/COMP/files/comp python notes.md",
+    "SUBJECTS/COMP/files/comp tut07 workings.md",
+    "trip to camels hump.md",
+    "SUBJECTS/COMP/files/comp mst prep whiteboard.md",
+    "SUBJECTS/COMP/files/comp ed worksheet notes.md",
+    "SUBJECTS/COMP/files/comp lecture notes week 1-5.md",
+    "Lunch with citadel.md",
+    "SUBJECTS/COMP/files/comp mst prep.md",
+    "SUBJECTS/MAST/files/mast 2 lec drawings.excalidraw.md",
+    "SUBJECTS/MAST/files/mast 2 notes.md",
+    "SUBJECTS/MAST/files/mast unit 2 - Matrices and linear equations.md",
+    "TODO Canvas.canvas"
+  ]
+}
