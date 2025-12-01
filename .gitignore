@@ -25,3 +25,7 @@ pnpm-debug.log*
 **/.obsidian/workspace*
 **/.obsidian/cache
 **/.obsidian/graph.json
+**/.obsidian/types*
+**/.obsidian/canvas.json
+**/.obsidian/webviewer.json
+**/.obsidian/daily-notes.json

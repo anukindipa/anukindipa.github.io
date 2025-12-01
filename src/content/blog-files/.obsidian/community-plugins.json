@@ -1,15 +1,7 @@
 [
   "obsidian-vimrc-support",
   "obsidian-style-settings",
-  "table-editor-obsidian",
-  "better-word-count",
   "obsidian-icon-folder",
-  "obsidian-tasks-plugin",
-  "obsidian-excalidraw-plugin",
-  "vimium",
-  "obsidian-bulk-rename-plugin",
-  "quickadd",
   "quick-latex",
-  "obsidian-latex-suite",
-  "pdf-plus"
+  "obsidian-latex-suite"
 ]
