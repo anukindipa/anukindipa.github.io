@@ -1,9 +1,6 @@
 # build output
 dist/
 
-# package-lock file
-package-lock.json
-
 # generated types
 .astro/
 
