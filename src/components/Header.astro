@@ -1,42 +1,90 @@
 ---
 import "../styles/global.css";
+
+import LinkedInIcon from "../assets/icons/linkedin.svg";
+import GithubIcon from "../assets/icons/github.svg";
 ---
 
 <header>
     <div class="container">
         <a href="/" class="title">blog.</a>
         <nav class="links">
-            <a href="aa.com">projects</a>
-            <a href="aa.com">posts</a>
-            <a href="aa.com">about</a>
+            <a href="projects">projects</a>
+            <a href="posts">posts</a>
+            <a href="tags">tags</a>
+            <a href="about">about</a>
+        </nav>
+        <nav class="social-container">
+            <a
+                class="social-entry"
+                href="https://github.com/anukindipa"
+                target="_blank"
+            >
+                <GithubIcon class="social-image" />
+            </a>
+            <a
+                class="social-entry"
+                href="https://www.linkedin.com/in/anuk-indipa-gamage-28728a314/"
+                target="_blank"
+            >
+                <LinkedInIcon class="social-image" />
+            </a>
         </nav>
     </div>
 </header>
 
 <style>
     .container {
-        padding: 2rem 0.5rem 2rem 0;
+        padding: 2rem 2rem 2rem 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
         white-space: nowrap;
+        font-size: 1.2rem;
+        gap: 5rem;
     }
 
+    /* link to home */
     .title {
         text-decoration: none;
         color: slategrey;
-        /* font-size: 1.4rem; */
+        /* font-size: 1.4rem;*/
         font-weight: 600;
     }
+
+    /* links to other pages */
     .links {
         display: flex;
-        gap: 2.5rem;
+        gap: 1.5rem;
     }
 
     .links a {
         text-decoration: none;
-        color: #48525d;
+        color: slategrey;
+        opacity: 0.8;
+    }
+
+    /* social icons */
+    .social-container {
+        display: flex;
+        gap: 1rem;
+    }
+    .social-image {
+        width: 20px;
+        height: 20px;
+        opacity: 0.8;
+        padding right: 0.5rem;
+    }
+
+    .title:hover,
+    .links a:hover{
+        color: lightblue;
+        opacity: 1;
+    }
+    .social-image:hover{
+        fill: lightblue;
+        opacity: 1;
     }
 
     @media (max-width: 700px) {

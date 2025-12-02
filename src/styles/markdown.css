@@ -1,0 +1,9 @@
+a {
+    text-decoration: underline;
+    color: lightskyblue
+}
+
+.astro-code {
+    padding: 1rem;
+    border-radius: 8px;
+}

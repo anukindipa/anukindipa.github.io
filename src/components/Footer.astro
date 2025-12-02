@@ -5,41 +5,10 @@ import LinkedInIcon from "../assets/icons/linkedin.svg";
 import GithubIcon from "../assets/icons/github.svg";
 ---
 
-<footer class="footer">
-    <div class="container">
-        <a
-            class="social"
-            href="https://www.linkedin.com/in/anuk-indipa-gamage-28728a314/"
-            target="_blank"
-        >
-            <img src={LinkedInIcon.src} alt="LinkedIn" class="social" />
-        </a>
-        <a class="social" href="https://github.com/anukindipa" target="_blank">
-            <img src={GithubIcon.src} alt="GitHub" class="social" />
-        </a>
-    </div>
-</footer>
+<footer class="footer"></footer>
 
 <style>
     .footer {
         padding: 2rem 0;
-    }
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.75rem;
-    }
-    .social {
-        width: 20px;
-        height: 20px;
-        color: var(--color-main);
-        text-decoration: none;
-    }
-
-    @media (min-width: 700px) {
-        .container {
-            justify-content: flex-start;
-        }
     }
 </style>

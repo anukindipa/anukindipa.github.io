@@ -7,7 +7,8 @@ import rehypeKatex from 'rehype-katex';
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-      remarkPlugins: [remarkMath],
-      rehypePlugins: [rehypeKatex],
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex],
+    shikiConfig: { theme: 'catppuccin-mocha' },
   },
 });
