@@ -11,4 +11,5 @@ export default defineConfig({
     rehypePlugins: [rehypeKatex],
     shikiConfig: { theme: 'catppuccin-mocha' },
   },
+  site: 'https://anukindipa.github.io',
 });
