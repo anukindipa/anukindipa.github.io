@@ -1,14 +1,72 @@
 ---
 import Base from "../layouts/Base.astro";
 import TagList from "../components/Tag_List.astro";
+
+// show some posts
+import PostList from "../components/PostList.astro";
+import { getCollection } from "astro:content";
+let allPosts = await getCollection("posts");
+let pinnedPosts = allPosts.filter((post) => post.data.pinned);
+pinnedPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+allPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+// first 2 of all posts shown
+allPosts = allPosts.slice(0, 2);
 ---
 
 <Base>
     <div>
         <h1>blog.</h1>
+        <div class="intro">
+            <div>
+                Hello! I am Anuk, a second year univerisity student studying
+                mathematics and statistics at the University of Melbourne.
+            </div>
+            <div>
+                This is a personal blog where I plan to write about programming,
+                math, statistics, any anything else that interests me.
+            </div>
+            <a href="/about" class="see-about">more about me ></a>
+        </div>
+    </div>
+    <div class="posts">
+        <h2 class="posts-heading">posts</h2>
+        <h3>> pinned posts</h3>
+        <PostList allPosts={pinnedPosts} />
+        <a href="/posts" class="see-all-posts">all pinned posts ></a>
+        <h3>> recent posts</h3>
+        <PostList allPosts={allPosts} />
+        <a href="/posts" class="see-all-posts">see all posts ></a>
     </div>
     <section id="tags">
-        <h1>tags</h1>
+        <h2>tags</h2>
         <TagList />
     </section>
 </Base>
+<style>
+    .intro {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+    }
+
+    .posts {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .posts-heading {
+        margin-bottom: 2rem;
+    }
+    .see-all-posts,
+    .see-about {
+        text-decoration: none;
+        color: var(--colors-link);
+        display: inline-block;
+    }
+    .see-all-posts {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+</style>

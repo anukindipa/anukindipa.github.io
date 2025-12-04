@@ -24,11 +24,8 @@ const wrap_func = (path: string) => {
             <a href="/posts">
                 {wrap_func("/posts")}
             </a>
-            <a href="/#tags">
-                <!-- {wrap_func("/tags")} -->
-                <!-- doesnt work for now -->
-                <!-- {Astro.url.pathname==="/#tags" ? "[ tags ]" : "tags"} -->
-                tags
+            <a href="/tags">
+                {wrap_func("/tags")}
             </a>
             <a href="/about">
                 {wrap_func("/about")}

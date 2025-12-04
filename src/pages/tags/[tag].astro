@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 
 import GoBack from "../../components/GoBack.astro";
+import PostList from "../../components/PostList.astro";
 
 import { getCollection } from "astro:content";
 
@@ -29,16 +30,17 @@ const { posts } = Astro.props;
     <div>
         <GoBack backlink="/tags" backlinkName="all tags" />
         <div class="tags">
-            <p>Posts tagged with {tag}</p>
-            <ul>
-                {
-                    posts.map((post) => (
-                        <li>
-                            <a href={`/posts/${post.id}/`}>{post.id}</a>
-                        </li>
-                    ))
-                }
-            </ul>
+            <h1>tag: <span class="change-color">{tag}</span></h1>
+            <p>
+                Posts tagged with `<span class="change-color">{tag}</span>`
+            </p>
         </div>
+        <PostList allPosts={posts} show_tags={true} />
     </div>
 </Base>
+
+<style>
+    .change-color {
+        color: var(--colors-link);
+    }
+</style>

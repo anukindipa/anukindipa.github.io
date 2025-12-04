@@ -1,10 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
+
+import LinkedInIcon from "../assets/icons/linkedin.svg";
+import GithubIcon from "../assets/icons/github.svg";
 ---
 
 <Base>
     <div>
         <h1>About</h1>
+        <p>I will fill out this section eventually</p>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
             lacus mollis, sodales orci non, dictum eros. Mauris luctus dolor
@@ -37,12 +41,41 @@ import Base from "../layouts/Base.astro";
             <li>
                 <a
                     href="https://www.linkedin.com/in/anuk-indipa-gamage-28728a314/"
-                    target="_blank">LinkedIn</a
+                    target="_blank"
                 >
+                    <div class="social-text">> LinkedIn [</div>
+                    <LinkedInIcon class="social-icon" />
+                    <div class="social-text">]</div>
+                </a>
             </li>
             <li>
-                <a href="github.com////">Github</a>
+                <a href="https://github.com/anukindipa" target="_blank">
+                    <div class="social-text">> GitHub [</div>
+                    <GithubIcon class="social-icon" />
+                    <div class="social-text">]</div>
+                </a>
             </li>
         </ul>
-    </div></Base
->
+    </div>
+</Base>
+
+<style>
+    .social-icon {
+        width: 1.2rem;
+        height: 1.2rem;
+        vertical-align: middle;
+        margin-right: 0.2rem;
+        margin-left: 0.2rem;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        color: var(--colors-link);
+        font-size: 1.1rem;
+        display: flex;
+        margin-bottom: 0.8rem;
+    }
+</style>

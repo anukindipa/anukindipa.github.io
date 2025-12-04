@@ -17,7 +17,7 @@ allPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 <Base>
     <Heading Title="Posts" />
     <h2>> pinned posts</h2>
-    <PostList allPosts={pinnedPosts} />
+    <PostList allPosts={pinnedPosts} show_tags={true} />
     <h2>> all posts</h2>
-    <PostList allPosts={allPosts} />
+    <PostList allPosts={allPosts} show_tags={true} />
 </Base>

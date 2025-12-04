@@ -3,9 +3,10 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   allPosts: CollectionEntry<"posts">[];
+  show_tags?: boolean;
 }
 
-const { allPosts } = Astro.props;
+const { allPosts, show_tags=false } = Astro.props;
 ---
 
 
@@ -20,7 +21,8 @@ const { allPosts } = Astro.props;
                 </div>
                 <div class="post-title">{post.id}</div>
                 {post.data.description && (
-                <div></div>
+                    // empty div so it doesnt go to space for date
+                    <div></div>
                     <div class="post-description">
                         > {
                         // add full stop to end of description
@@ -30,6 +32,25 @@ const { allPosts } = Astro.props;
                         }
                     </div>
                 )}
+                
+
+
+
+
+
+                {show_tags && post.data.tags && (
+                    <div></div>
+                    <div class="tags-container">
+                        {post.data.tags.map((tag: string, index: number) => (
+                        <>
+                                <span class="tag-entry">
+                                    [{tag}]
+                                </span>
+                                </>
+                        ))}
+                    </div>
+                )}
+                
             </a>
         ))
     }
@@ -44,7 +65,7 @@ const { allPosts } = Astro.props;
         display: grid;
         /* 100px fixed for date, rest (1 fraction of reminaing) goes to title*/
         grid-template-columns: 100px 1fr;
-        gap: 0.5rem;
+        gap: 0.2rem;
         align-items: center;
 
         text-decoration: none;
@@ -73,6 +94,12 @@ const { allPosts } = Astro.props;
         margin-top: 0.2rem;
     }
 
+    .tag-entry {
+        font-size: 0.9rem;
+        opacity: 0.7;
+        text-decoration: none;
+        color: var(--color-header-text);
+    } 
     .post-row:hover .post-title {
         color: var(--color-header-hover);
     }
