@@ -43,9 +43,13 @@ import Header from "../components/Header.astro";
 
 	.content {
 		width: 100%;
-		max-width: 600px;
 		margin: 0 auto;
 		padding: 0 1rem;
 		overflow-x: hidden;
 	}
+    @media (min-width: 1200px){
+        .content {
+            max-width: 800px;
+        }
+    }
 </style>

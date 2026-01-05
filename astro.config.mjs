@@ -9,6 +9,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex],
+    // kanagawa-dragon, catppuccin-mocha, github-dark-default looks nice too
     shikiConfig: { theme: 'catppuccin-mocha' },
   },
   site: 'https://anukindipa.github.io',
