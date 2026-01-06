@@ -3,11 +3,12 @@ import { defineConfig } from 'astro/config';
 
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import remarkCallout from "@r4ai/remark-callout";
 
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkCallout, remarkMath],
     rehypePlugins: [rehypeKatex],
     // kanagawa-dragon, catppuccin-mocha, github-dark-default looks nice too
     shikiConfig: { theme: 'catppuccin-mocha' },

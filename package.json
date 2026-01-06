@@ -3,13 +3,14 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.8",
+    "@r4ai/remark-callout": "^0.6.2",
     "astro": "^5.16.3",
     "katex": "^0.16.25",
     "rehype-katex": "^7.0.1",

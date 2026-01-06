@@ -2,4 +2,5 @@
 
 Blog managed with Obsidian markdown files
 
-Posts are in the obsidian stored in `src/content/blog-files`
+Posts are stored in the obsidian valut in `src/content/blog-files`.
+`blog-files/` is a symlink for the vault.

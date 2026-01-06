@@ -6,13 +6,14 @@ a {
     color: var(--colors-link);
 }
 
-
+/*syntax highlighting for code blocks*/
 .astro-code {
     padding: 1rem;
     border-radius: 1rem;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     background-color: #0e0d0d !important;
+    tab-size: 4ch
 }
 
 /*give a bit of space around h1 and h2*/
@@ -61,4 +62,28 @@ table td {
 
 table tr:hover {
     background-color: #141414;
+}
+
+
+/* Target all callout containers */
+[data-callout] {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid rgba(var(--callout-color), 0.7);
+    /* Uses a CSS variable for color */
+}
+
+/* Target specific callout types (e.g., 'note') */
+[data-callout-type="note"] {
+    --callout-color: 0, 100, 255;
+    /* RGB values for the blue theme */
+    background-color: rgba(var(--callout-color), 0.1);
+}
+
+/* Target the callout title/header */
+[data-callout-title] {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
