@@ -1,7 +1,7 @@
 ---
 pubDate: 2026-01-24
 description: high level overview of linux syscalls and usecases (fork, execve, write, exit)
-tags: [low-level, linux, c/c++, assembly]
+tags: [low-level, linux, c and c++, assembly]
 pinned: true
 ---
 ## Table of Contents
