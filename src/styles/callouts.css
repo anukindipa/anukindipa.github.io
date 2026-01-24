@@ -1,0 +1,120 @@
+/*
+*--------------------------------------------------------------------------------------------------- 
+* default callout style
+*--------------------------------------------------------------------------------------------------- 
+*/
+[data-callout] {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    /* RGB values for the blue theme */
+    --callout-color: 36, 39, 48, 0.9;
+    background-color: rgba(var(--callout-color));
+}
+
+/* Info icon */
+[data-callout] > [data-callout-title]::before {
+    /* https://lucide.dev/icons/info */
+    /*copy content: .. from below and replace svg element with icons from the site above */
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info-icon lucide-info"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>');
+    /* https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element */
+    /* https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(77%) sepia(8%) saturate(196%) hue-rotate(263deg) brightness(86%) contrast(88%);
+    /* make visually consistant  */
+    transform: scale(0.8) translate(-3px, -3px); 
+    margin-right: 0.3rem;
+}
+
+/* callout title/header style */
+[data-callout-title] {
+    font-weight: bold;
+    display: flex;
+    color: rgba(135, 176, 249, 0.8);
+}
+
+/*
+*--------------------------------------------------------------------------------------------------- 
+callouts with 'Note'
+*--------------------------------------------------------------------------------------------------- 
+*/
+[data-callout-type="note"] {
+    /* RGB values for the blue theme */
+    --callout-color: 36, 39, 48, 0.9;
+    background-color: rgba(var(--callout-color));
+}
+/* Pen Icon */
+[data-callout-type="note"] > [data-callout-title]::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-icon lucide-pen"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></svg>');
+    filter: invert(77%) sepia(8%) saturate(196%) hue-rotate(263deg) brightness(86%) contrast(88%);
+    transform: scale(0.8) translate(-3px, -3px); 
+    margin-right: 0.3rem;
+}
+
+/*
+*--------------------------------------------------------------------------------------------------- 
+callouts with 'Warning'
+*--------------------------------------------------------------------------------------------------- 
+*/
+[data-callout-type="warning"] {
+    --callout-color: 47, 39, 37, 0.9;
+    /* RGB values for the blue theme */
+    background-color: rgba(var(--callout-color));
+}
+/* Warn icon */
+[data-callout-type="warning"] > [data-callout-title]::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-warning-icon lucide-message-square-warning"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M12 15h.01"/><path d="M12 7v4"/></svg>');
+    /* https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(77%) sepia(8%) saturate(196%) hue-rotate(263deg) brightness(86%) contrast(88%);
+    /* make visually consistant  */
+    transform: scale(0.8) translate(-3px, -3px); 
+    margin-right: 0.3rem;
+}
+
+[data-callout-type="warning"] > [data-callout-title]{
+    color: rgba(250, 179, 135, 0.8);
+}
+
+/*
+*--------------------------------------------------------------------------------------------------- 
+callouts with 'Example'
+*--------------------------------------------------------------------------------------------------- 
+*/
+[data-callout-type="example"] {
+    --callout-color: 54, 52, 69, 0.9;
+    background-color: rgba(var(--callout-color));
+}
+/* List icon */
+[data-callout-type="example"] > [data-callout-title]::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list-icon lucide-list"><path d="M3 5h.01"/><path d="M3 12h.01"/><path d="M3 19h.01"/><path d="M8 5h13"/><path d="M8 12h13"/><path d="M8 19h13"/></svg>');
+    /* https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(77%) sepia(8%) saturate(196%) hue-rotate(263deg) brightness(86%) contrast(88%);
+    /* make visually consistant  */
+    transform: scale(0.8) translate(-3px, -3px); 
+    margin-right: 0.3rem;
+}
+
+[data-callout-type="example"] > [data-callout-title]{
+    color: rgba(166, 126, 242, 0.8);
+}
+
+/*
+*--------------------------------------------------------------------------------------------------- 
+callouts with 'Quote'
+*--------------------------------------------------------------------------------------------------- 
+*/
+[data-callout-type="quote"] {
+    --callout-color: 35, 35, 35, 0.9;
+    background-color: rgba(var(--callout-color));
+}
+/* Quote icon */
+[data-callout-type="quote"] > [data-callout-title]::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote-icon lucide-quote"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>');
+    filter: invert(77%) sepia(8%) saturate(196%) hue-rotate(263deg) brightness(86%) contrast(88%);
+    transform: scale(0.8) translate(-3px, -3px); 
+    margin-right: 0.3rem;
+}
+
+[data-callout-type="quote"] > [data-callout-title]{
+    color: rgba(154, 154, 154, 0.8);
+}

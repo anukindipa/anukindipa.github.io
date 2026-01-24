@@ -7,7 +7,7 @@ const { post, backlink, backlinkName } = Astro.props;
 
 <Base>
     <GoBack backlink={backlink} backlinkName={backlinkName} />
-    <h1 class="file_name">{post.id}.md</h1>
+    <h1 class="file_name">{post.id}</h1>
     <div class="file-metadata">
         <p class="date">> {post.data.pubDate.toLocaleDateString("en-GB")}</p>
         {

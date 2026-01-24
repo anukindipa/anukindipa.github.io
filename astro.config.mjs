@@ -8,8 +8,8 @@ import remarkCallout from "@r4ai/remark-callout";
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-    remarkPlugins: [remarkCallout, remarkMath],
-    rehypePlugins: [rehypeKatex],
+    remarkPlugins: [remarkCallout, remarkMath, ],
+    rehypePlugins: [rehypeKatex,],
     // kanagawa-dragon, catppuccin-mocha, github-dark-default looks nice too
     shikiConfig: { theme: 'catppuccin-mocha' },
   },

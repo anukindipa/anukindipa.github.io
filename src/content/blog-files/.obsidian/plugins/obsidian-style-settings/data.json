@@ -68,7 +68,8 @@
   "anuppuccin-theme-settings@@ctp-custom-base@@light": "#19171A",
   "anuppuccin-theme-settings@@ctp-custom-surface0@@light": "#333134",
   "pdf-plus@@pdf-plus-vim-hint-inverted": false,
-  "anuppuccin-theme-settings@@ctp-custom-red@@dark": "#DC395C",
   "anuppuccin-theme-settings@@ctp-custom-rosewater@@dark": "#DC8A78",
-  "anuppuccin-theme-settings@@anp-codeblock-numbers": true
+  "anuppuccin-theme-settings@@anp-codeblock-numbers": true,
+  "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-red",
+  "anuppuccin-theme-settings@@ctp-custom-red@@dark": "#577FDC"
 }

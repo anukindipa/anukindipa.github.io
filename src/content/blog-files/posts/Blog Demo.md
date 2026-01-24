@@ -11,7 +11,7 @@ This is a demo post to test out/showcase some features.
 
 Read my entry about how this was made ([coming soon....](../)) to learn more about this blog.
 
-## Feature Overview
+# Feature Overview
 
 
 1. **Markdown formatting** 
@@ -24,12 +24,25 @@ Read my entry about how this was made ([coming soon....](../)) to learn more abo
 4. **Tag-based organization** 
 >  see [tags](../../tags/) or click one of the tags on the top of this post.
 
+# Markdown features
+## Table of Contents
+
+- [Math Demo](#math-demo)
+	- [Inline math equations](#inline-math-equations)
+	- [Another math demo](#another-math-demo)
+	- [Block equations](#block-equations)
+- [Markdown Table](#markdown-table)
+- [Code Demo](#code-demo)
+- [Callout Demo](#callout-demo)
+- [Image Demo:](#image-demo)
+
+Table of Contents auto generated in obsidian.
 ## Math Demo
 
-#### Inline math equations 
+### Inline math equations 
 random integral, $\int_0^\infty e^{-x} dx = 1$
 
-#### Another math demo
+### Another math demo
 A sequence $x_{1}, x_{2}, x_{3}\dots$ of real numbers is cauchy if 
 $$
 \begin{align*}
@@ -38,13 +51,13 @@ $$
 \end{align*}
 $$
 
-#### Block equations
+### Block equations
 
 $$
 \hat{f}(\xi) = \int_{-\infty}^{\infty} f(x) e^{-2\pi i x \xi} dx
 $$
 
-### Markdown Table
+## Markdown Table
 
 with custom css
 
@@ -53,7 +66,7 @@ with custom css
 | Row 1 | T11   | T12   |
 | Row 2 | T21   | T22   |
 
-### Code Demo
+## Code Demo
 
 Binary Search in C:
 
@@ -83,11 +96,28 @@ int first_true(int* arr, int n, int (*is_true)(int)){
 }
 ```
 
+## Callout Demo
 
-### Image test:
+> [!Note] Here is a callout
+> Obsidian style callout support with https://github.com/r4ai/remark-callout
+
+> [!Warning] Different type of callout (Warning Callout)
+> Nested Exaple
+>  > [!Quote] Nested Level 1 (Quote Callout)
+>  >  Nested Level 1 content
+> > > [!Example] Nested Level 2 (Example Callout)
+>  >  Nested Level 2 content
+> > >
+> >  > Nested Level 2 Line 2  
+>  > 
+>  > Level 1 again  
+
+
+
+## Image Demo:
 A screenshot of a lecture slide:
 
-![image test](../attachments/Pasted%20image%2020251202181641.png)
+![image test](../attachments/blog-demo-image.png)
 *custom css for image captions*
 
 See [more stuff....](../../posts/)
