@@ -26,7 +26,10 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<Base>
+<Base
+    title={`<${tag}> | Anuks Blog`}
+    description={`Browse posts tagged with "${tag}".`}
+>
     <div>
         <GoBack backlink="/tags" backlinkName="all tags" />
         <div class="tags">

@@ -10,7 +10,7 @@ const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post: any) => post.data.tags).flat())];
 ---
 
-<Base>
+<Base title="Tags | Anuks Blog" description="Browse all tags">
     <Heading Title="tags" />
     <div class="tags">
         {

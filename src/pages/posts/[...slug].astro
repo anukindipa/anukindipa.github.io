@@ -15,7 +15,13 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<MarkdownBase post={post} backlink="/posts" backlinkName="all posts">
+<MarkdownBase
+    post={post}
+    backlink="/posts"
+    backlinkName="all posts"
+    title={`${post.data.title} | Anuks Blog`}
+    description={post.data.description}
+>
     <div class="markdown-body">
         <Content />
     </div>

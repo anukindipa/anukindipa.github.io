@@ -4,6 +4,9 @@ import "@fontsource-variable/inter";
 
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+
+const title = Astro.props.title || "Anuks Blog";
+const description = Astro.props.description || "Anuks Blog";
 ---
 
 <!doctype html>
@@ -27,7 +30,8 @@ import Header from "../components/Header.astro";
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Anuks Blog</title>
+		<meta name="description" content={description} />
+		<title>{title}</title>
 	</head>
 	<body>
 		<main class="content">

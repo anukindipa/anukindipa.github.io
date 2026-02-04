@@ -1,8 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
+const title = Astro.props.title || "Coming Soon";
+const description = Astro.props.description || "This page is coming soon.";
 ---
 
-<Base>
+<Base title={title} description={description}>
     <div class="coming-soon-container">
         Coming Soon
         <div class="loading-bar">

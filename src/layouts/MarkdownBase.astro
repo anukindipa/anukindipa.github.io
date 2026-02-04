@@ -2,10 +2,10 @@
 import Base from "../layouts/Base.astro";
 import GoBack from "../components/GoBack.astro";
 import "../styles/markdown.css";
-const { post, backlink, backlinkName } = Astro.props;
+const { post, backlink, backlinkName, title = "Post | Anuks Blog", description = "A blog post" } = Astro.props;
 ---
 
-<Base>
+<Base title={title} description={description}>
     <GoBack backlink={backlink} backlinkName={backlinkName} />
     <h1 class="file_name">{post.id}</h1>
     <div class="file-metadata">

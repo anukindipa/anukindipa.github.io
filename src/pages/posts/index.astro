@@ -14,7 +14,7 @@ pinnedPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 allPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
 
-<Base>
+<Base title="Posts | Anuks Blog" description="Read all blog posts">
     <Heading Title="Posts" />
     <h2>> pinned posts</h2>
     <PostList allPosts={pinnedPosts} show_tags={true} />

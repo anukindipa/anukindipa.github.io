@@ -1,4 +1,5 @@
 ---
+title: Blog Demo
 pubDate: 2025-12-10
 description: A demo post showcasing some features
 tags: [demo, web-dev]
