@@ -9,6 +9,20 @@ import Header from "../components/Header.astro";
 <!doctype html>
 <html lang="en">
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-D6DNH2C2J7"
+		></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-D6DNH2C2J7");
+		</script>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -47,9 +61,9 @@ import Header from "../components/Header.astro";
 		padding: 0 1rem;
 		overflow-x: hidden;
 	}
-    @media (min-width: 1200px){
-        .content {
-            max-width: 800px;
-        }
-    }
+	@media (min-width: 1200px) {
+		.content {
+			max-width: 800px;
+		}
+	}
 </style>
